@@ -4696,13 +4696,6 @@
 						iommus = <&apps_smmu 0x0c0e 0x0>;
 						dma-coherent;
 					};
-
-					compute-cb@15 {
-						compatible = "qcom,fastrpc-compute-cb";
-						reg = <15>;
-						iommus = <&apps_smmu 0x0c0f 0x0>;
-						dma-coherent;
-					};
 				};
 			};
 		};
