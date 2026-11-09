@@ -24,6 +24,10 @@ properties:
   interconnects:
     maxItems: 1
 
+  iommus:
+    minItems: 1
+    maxItems: 4
+
   interrupts:
     minItems: 5
     maxItems: 6
